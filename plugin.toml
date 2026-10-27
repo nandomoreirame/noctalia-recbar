@@ -1,0 +1,14 @@
+id = "nandomoreirame/recbar"
+name = "RecBar"
+version = "0.1.0"
+plugin_api = 22
+author = "Fernando Moreira Costa"
+license = "MIT"
+icon = "player-record"
+description = "Pílula REC/GIF com o tempo de gravação do gsr-toggle. Some quando não grava; clique para parar."
+tags = ["bar", "utility", "recording"]
+dependencies = []
+
+[[widget]]
+id = "bar"
+entry = "widget.luau"
